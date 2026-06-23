@@ -1,0 +1,27 @@
+
+# Programa para registrar ventas
+
+# Pedir cuántas ventas se van a registrar
+n = int(input("¿Cuántas ventas desea registrar? "))
+
+# Listas para guardar los productos y precios
+productos = []
+precios = []
+
+# Capturar los datos de cada venta
+for i in range(n):
+    print(f"\nVenta #{i + 1}")
+    producto = input("Ingrese el nombre del producto: ")
+    precio = float(input("Ingrese el precio del producto: "))
+
+    # Guardar en las listas
+    productos.append(producto)
+    precios.append(precio)
+
+# Mostrar todos los productos con sus precios
+print("\n--- LISTA DE VENTAS REGISTRADAS ---")
+for i in range(n):
+    print(f"Producto: {productos[i]} - Precio: ${precios[i]:.2f}")
+
+print("\nRegistro completado.")
+"
