@@ -1,0 +1,10 @@
+NOMBRE: Miguel
+MATRICULA: 2025-0218
+CORREO: miguelpaulino1122@gmail.com
+TELEFONO: 829-974-9454
+
+NOMBRE: leanni
+MATRICULA: 2232332
+CORREO: migueeldjff@gmail.com
+TELEFONO: 75423444666
+
