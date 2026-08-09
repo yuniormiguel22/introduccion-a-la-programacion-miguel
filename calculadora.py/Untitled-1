@@ -24,4 +24,3 @@ for i in range(n):
     print(f"Producto: {productos[i]} - Precio: ${precios[i]:.2f}")
 
 print("\nRegistro completado.")
-"
